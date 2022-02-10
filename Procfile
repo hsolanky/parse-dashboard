@@ -1,1 +1,1 @@
-web: bin/parse-dashboard --config Parse-Dashboard/parse-dashboard-config.json
+web: bin/parse-dashboard --config JSON.parse(process.env.PARSE_DASHBOARD_CONFIG)
